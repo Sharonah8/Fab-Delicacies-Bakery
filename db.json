@@ -1,0 +1,43 @@
+{ 
+    "images" : [
+    {
+        "flavour": "Chocolate cake",
+        "quantity": "2 kg",
+        "price": "Ksh 3000",
+        "description": "Yummy chocolate cake for those with a sweet tooth",
+        "image": "https://ibb.co/Jd27nZR"
+    },
+
+    {
+        "flavour": "Blueberry Cheesecake",
+        "quantity": "1 kg",
+        "price": "Ksh 2500",
+        "description": "Fancy, elegant cake for your special occasions",
+        "image": "https://ibb.co/23xq24R"
+    },
+
+    {
+        "flavour": "Red Velvet",
+        "quantity": "2 kg",
+        "price": "Ksh 2500",
+        "description": "Sweet red velvet cake for events",
+        "image": "https://ibb.co/wChwYDw"
+    },
+
+    {
+        "flavour": "Sponge Cake",
+        "quantity": "3 kg",
+        "price": "Ksh 3500",
+        "description": "Soft, fresh, and moist cake. Yummy for all",
+        "image": "https://ibb.co/KXp3H8n"
+    },
+
+    {
+        "flavour": "White Cake/ Vanilla",
+        "quantity": "2 kg",
+        "price": "Ksh 2000",
+        "description": "Vanilla cake is perfect for everyone",
+        "image": "https://ibb.co/qnLNLzL"
+    }]
+}
+
