@@ -1,6 +1,7 @@
 { 
-    "images" : [
+    "cakes" : [
     {
+        "id": 1,
         "flavour": "Chocolate cake",
         "quantity": "2 kg",
         "price": "Ksh 3000",
@@ -9,6 +10,7 @@
     },
 
     {
+        "id": 2,
         "flavour": "Blueberry Cheesecake",
         "quantity": "1 kg",
         "price": "Ksh 2500",
@@ -17,6 +19,7 @@
     },
 
     {
+        "id": 3,
         "flavour": "Red Velvet",
         "quantity": "2 kg",
         "price": "Ksh 2500",
@@ -25,6 +28,7 @@
     },
 
     {
+        "id": 4,
         "flavour": "Sponge Cake",
         "quantity": "3 kg",
         "price": "Ksh 3500",
@@ -33,6 +37,7 @@
     },
 
     {
+        "id": 5,
         "flavour": "White Cake/ Vanilla",
         "quantity": "2 kg",
         "price": "Ksh 2000",

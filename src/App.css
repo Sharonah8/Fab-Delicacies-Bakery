@@ -75,10 +75,9 @@ code {
 .nav-list{
   width: 100%;
   display: flex;
-  /* align-items: inherit; */
- justify-content: end;
- padding-top: 1rem;
- padding-bottom: 1rem;
+  justify-content: end;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   list-style: none;
 }
 

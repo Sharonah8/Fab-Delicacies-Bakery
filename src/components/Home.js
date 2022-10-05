@@ -5,6 +5,7 @@ import FindUs from "./FindUs";
 import Footer from "./Footer";
 import Feedback from "./Feedback";
 import Slider from "./Slider";
+import Cakes from "./Cakes";
 // import OrderCake from "./OrderCake";
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
       <Navbar />
       <Slider />
       {/* <OrderCake /> */}
+      <Cakes />
       <AboutUs />
       <Feedback />
       <FindUs />
