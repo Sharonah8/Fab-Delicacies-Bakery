@@ -88,7 +88,7 @@ code {
 .slider-container{
   width: 100%;
  height: auto;
-  display: flex;
+
   background: url('./Images/Background.jpg');
   opacity: 0.8;
   background-position: center;
@@ -103,6 +103,7 @@ code {
     font-size: 3em;
     padding-top: 15rem;
     color: black;
+    width: 30%;
 }
 
 /* .order-btn{
