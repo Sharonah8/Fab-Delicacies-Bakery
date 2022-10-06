@@ -6,8 +6,8 @@ function CakeItem(props) {
     const { description, flavour, image, price, quantity, id } = cake
     console.log(cake, 'cake')
     return (
-        <div className='cake-img'>
-            <img style={{ width: '100px', height: "100px" }} src={image} alt={id} />
+        <div className='cake-card'>
+            <img style={{ width: '500px', height: "500px" }} src={image} alt={id} />
             <p>{description}</p>
             <p>{flavour}</p>
             <p>{price}</p>

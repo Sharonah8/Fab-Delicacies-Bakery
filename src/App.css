@@ -114,8 +114,21 @@ code {
   height: 20%;
 } */
 
-.class-img{
-  width: 100px;
-  height: 100px;
-  display: flex;
+.cake-card{
+  /* overflow-x: scroll; */
+  min-height: 100%;
+  max-width: 100%;
+  display: inline-block;
+  padding: 1rem 2rem;
+  height: 100%;
+}
+
+.cake-card img{
+  padding-left: 3rem;
+}
+
+.cake-card p{
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 3rem;
 }
