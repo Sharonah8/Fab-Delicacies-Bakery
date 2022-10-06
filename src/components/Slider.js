@@ -9,7 +9,7 @@ const Slider = () => {
         products cost effectively, in an environment that is perfectly clean,
         safe and friendly to both employees and the community.
       </p>
-      <button>Order a cake</button>
+      <button className="slider-btn">Order a cake</button>
     </div>
   );
 };

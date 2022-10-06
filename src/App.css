@@ -83,12 +83,15 @@ code {
 
 .nav-list li{
   padding: 0 1rem;
+  cursor: pointer;
 }
+
+
 
 .slider-container{
   width: 100%;
- height: auto;
-
+  height: auto;
+  padding: 10%;
   background: url('./Images/Background.jpg');
   opacity: 0.8;
   background-position: center;
@@ -98,12 +101,30 @@ code {
 }
 
 .slider-container p{
-    margin-left: 20rem;
-    margin-right: 20rem;
+    /* margin-left: 20rem;
+    margin-right: 20rem; */
     font-size: 3em;
-    padding-top: 15rem;
+    /* padding-top: 15rem;
     color: black;
-    width: 30%;
+    width: 30%; */
+}
+
+.slider-container button{
+  padding: 1rem;
+  margin-left: 45%;
+  margin-bottom: 5%;
+  margin-top: 3%;
+  background-color: rgb(133, 3, 3);
+  font-size: 30px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+
+.slider-btn:hover{
+    background-color: wheat;
+    color: black;
 }
 
 /* .order-btn{
