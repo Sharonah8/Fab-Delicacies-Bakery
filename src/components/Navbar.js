@@ -13,12 +13,12 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <div className="nav-container">
-      <img src="./src/Images/Logo.jpg" alt="Logo" />
+      {/* <img src="./src/Images/Logo.jpg" alt="Logo" /> */}
+      <p className="nav-title">Fab's Bakery</p>
       <ul className="nav-list">
-        <Link calssName="" to="/aboutUs">About Us</Link>
-        <Link>Find Us</Link>
-        <li>Place order</li>
-        <li>Login</li>
+        <Link className="" to="/aboutUs">About Us</Link>
+        <Link className="" to="/findUs">Find Us</Link>
+        <Link className="" to="/orderCake">Place order</Link>
       </ul>
     </div>
   );

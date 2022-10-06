@@ -14,8 +14,10 @@ const Home = () => {
     <Routes>
       <Route element={<Slider />} path="/" />
       {/* <Slider />
-
+     
       <Cakes /> */}
+
+      <Route element={<Cakes />} path="/cakes" />
       <Route path="/aboutUs" element={<AboutUs />} />
       {/* <Feedback />
       <FindUs /> */}
