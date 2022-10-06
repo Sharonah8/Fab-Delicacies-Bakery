@@ -91,6 +91,11 @@ code {
   width: 30%;
 }
 
+.nav-link{
+  color: black;
+  margin-right: 1rem;
+  /* margin-bottom: 10px; */
+}
 
 
 .slider-container{
@@ -123,7 +128,7 @@ code {
   padding: 1rem;
   margin-left: 45%;
   margin-bottom: 5%;
-  margin-top: 3%;
+  margin-top: 5%;
   background-color: blue;
   font-size: 30px;
   color: white;

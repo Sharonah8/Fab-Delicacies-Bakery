@@ -16,9 +16,9 @@ function Navbar() {
       {/* <img src="./src/Images/Logo.jpg" alt="Logo" /> */}
       <p className="nav-title">Fab's Bakery</p>
       <ul className="nav-list">
-        <Link className="" to="/aboutUs">About Us</Link>
-        <Link className="" to="/findUs">Find Us</Link>
-        <Link className="" to="/orderCake">Place order</Link>
+        <Link className="nav-link" to="/aboutUs">About Us</Link>
+        <Link className="nav-link" to="/findUs">Find Us</Link>
+        <Link className="nav-link" to="/orderCake">Place order</Link>
       </ul>
     </div>
   );

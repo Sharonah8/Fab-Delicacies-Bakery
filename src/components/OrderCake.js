@@ -60,7 +60,7 @@ function OrderCake() {
           <tr>
             <td>Name</td>
             <td>Quantity</td>
-            <td>Customization</td>
+            <td>Customization Message</td>
           </tr>
           {inputarr.map((info, ind) => {
             return (
