@@ -9,7 +9,7 @@ function Cakes() {
 
 
         try {
-            const res = await fetch('http://localhost:5000/cakes')
+            const res = await fetch('https://fabs-bakery.herokuapp.com/cakes')
             const data = await res.json()
             setCakes(data)
 

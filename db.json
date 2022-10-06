@@ -7,7 +7,7 @@
         "quantity": "2 kg",
         "price": "Ksh 3000",
         "description": "Yummy chocolate cake for those with a sweet tooth",
-        "image": "https://images.unsplash.com/photo-1627834377411-8da5f4f09de8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=701&q=80"
+        "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1089&q=80"
     },
 
     {
@@ -25,7 +25,7 @@
         "quantity": "2 kg",
         "price": "Ksh 2500",
         "description": "Sweet red velvet cake for events",
-        "image": "https://images.unsplash.com/photo-1627834377411-8da5f4f09de8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=701&q=80"
+        "image": "https://images.unsplash.com/photo-1635117492718-695a17a5977a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
     },
 
     {
@@ -34,7 +34,7 @@
         "quantity": "3 kg",
         "price": "Ksh 3500",
         "description": "Soft, fresh, and moist cake. Yummy for all",
-        "image": "https://images.unsplash.com/photo-1627834377411-8da5f4f09de8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=701&q=80"
+        "image": "https://images.unsplash.com/photo-1608830597504-bf1f8b3fde8d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
     },
 
     {
@@ -43,7 +43,7 @@
         "quantity": "2 kg",
         "price": "Ksh 2000",
         "description": "Vanilla cake is perfect for everyone",
-        "image": "https://images.unsplash.com/photo-1627834377411-8da5f4f09de8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=701&q=80"
+        "image": "https://images.unsplash.com/photo-1568051243857-068aa3ea934d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
     },
     {
         "id": 6,
@@ -51,7 +51,7 @@
         "quantity": "2 kg",
         "price": "Ksh 2000",
         "description": "Pinacolada cake is soft and delicious",
-        "image": "https://images.unsplash.com/photo-1627834377411-8da5f4f09de8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=701&q=80"
+        "image": "https://images.unsplash.com/photo-1460380410874-537ecece3984?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=703&q=80"
     }]
 }
 

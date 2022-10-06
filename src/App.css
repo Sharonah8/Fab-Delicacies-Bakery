@@ -125,6 +125,7 @@ code {
 .slider-btn:hover{
     background-color: wheat;
     color: black;
+    transition: 0.5s;
 }
 
 /* .order-btn{
