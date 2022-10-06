@@ -51,11 +51,11 @@ function OrderCake() {
         placeholder="Message on cake"
       />
 
-      <button className="form-btn" onClick={handleChang2}>
+      <button className="form-btn" onClick={handleChang}>
         Submit
       </button>
 
-      <table border={1} cellPadding={10}>
+      <table border={2} cellPadding={10}>
         <tbody>
           <tr>
             <td>Name</td>
@@ -64,7 +64,7 @@ function OrderCake() {
           </tr>
           {inputarr.map((info, ind) => {
             return (
-              <tr>
+              <tr key={ind}>
                 <td>{info.name}</td>
                 <td>{info.quantity}</td>
                 <td>{info.comment}</td>
