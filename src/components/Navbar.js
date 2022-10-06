@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 // import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 // import { GiHamburgerMenu } from "react-icons/gi";
 // import { MdImageSearch, MdOutlineRestaurantMenu } from "react-icons/md";
@@ -14,8 +15,8 @@ function Navbar() {
     <div className="nav-container">
       <img src="./src/Images/Logo.jpg" alt="Logo" />
       <ul className="nav-list">
-        <li>About Us</li>
-        <li>Find Us</li>
+        <Link calssName="" to="/aboutUs">About Us</Link>
+        <Link>Find Us</Link>
         <li>Place order</li>
         <li>Login</li>
       </ul>

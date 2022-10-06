@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 function OrderCake() {
-  const { inputdata, setInputdata } = useState({
+  const [inputdata, setInputdata] = useState({
     name: "",
     quantity: "",
     comment: "",
@@ -9,8 +9,10 @@ function OrderCake() {
   function handleChange(e) {
     setInputdata({ ...inputdata, [e.target.name]: e.target.value });
   }
+
   return (
     <div className="order-form">
+      Hello world
       <input
         type="text"
         name="name"
@@ -19,13 +21,13 @@ function OrderCake() {
       />
       <input
         type="text"
-        name="name"
+        name="quantity"
         value={inputdata.quantity}
         onChange={handleChange}
       />
       <input
         type="text"
-        name="name"
+        name="comment"
         value={inputdata.comment}
         onChange={handleChange}
       />

@@ -6,20 +6,22 @@ import Footer from "./Footer";
 import Feedback from "./Feedback";
 import Slider from "./Slider";
 import Cakes from "./Cakes";
-// import OrderCake from "./OrderCake";
+import OrderCake from "./OrderCake";
 
+import { Routes, Route } from "react-router-dom";
 const Home = () => {
   return (
-    <div>
-      <Navbar />
-      <Slider />
-      {/* <OrderCake /> */}
-      <Cakes />
-      <AboutUs />
-      <Feedback />
-      <FindUs />
-      <Footer />
-    </div>
+    <Routes>
+      <Route element={<Slider />} path="/" />
+      {/* <Slider />
+
+      <Cakes /> */}
+      <Route path="/aboutUs" element={<AboutUs />} />
+      {/* <Feedback />
+      <FindUs /> */}
+      <Route element={<OrderCake />} path="/orderCake" />
+      {/* <Footer /> */}
+    </Routes>
   );
 };
 
