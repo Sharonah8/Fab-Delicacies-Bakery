@@ -14,9 +14,14 @@ function OrderCake() {
   }
 
   let { name, quantity, comment } = inputdata;
-  function handleChange2() {
+  function handleChang() {
     setInputarr([...inputarr, { name, quantity, comment }]);
     // console.log(inputarr);
+    setInputdata({ name: "", quantity: "", comment: "" });
+  }
+
+  function handleChang2() {
+    console.log("data is", inputarr);
   }
 
   return (
@@ -46,16 +51,27 @@ function OrderCake() {
         placeholder="Message on cake"
       />
 
-      <button className="form-btn" onClick={handleChange2}>
+      <button className="form-btn" onClick={handleChang2}>
         Submit
       </button>
 
       <table border={1} cellPadding={10}>
-        <tr>
-          <td>Name</td>
-          <td>Quantity</td>
-          <td>Customization</td>
-        </tr>
+        <tbody>
+          <tr>
+            <td>Name</td>
+            <td>Quantity</td>
+            <td>Customization</td>
+          </tr>
+          {inputarr.map((info, ind) => {
+            return (
+              <tr>
+                <td>{info.name}</td>
+                <td>{info.quantity}</td>
+                <td>{info.comment}</td>
+              </tr>
+            );
+          })}
+        </tbody>
       </table>
     </div>
   );
