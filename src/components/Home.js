@@ -11,14 +11,9 @@ const Home = () => {
   return (
     <Routes>
       <Route element={<Slider />} path="/" />
-      {/* <Slider /> */}
-
       <Route element={<Cakes />} path="/cakes" />
-      <Route path="/aboutUs" element={<AboutUs />} />
-      {/* <Feedback />
-      <FindUs /> */}
+      <Route element={<AboutUs />} path="/aboutUs" />
       <Route element={<OrderCake />} path="/orderCake" />
-      {/* <Footer /> */}
     </Routes>
   );
 };
