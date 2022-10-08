@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 function OrderCake() {
   const [inputarr, setInputarr] = useState([]);
@@ -18,10 +18,6 @@ function OrderCake() {
     setInputarr([...inputarr, { name, quantity, comment }]);
     // console.log(inputarr);
     setInputdata({ name: "", quantity: "", comment: "" });
-  }
-
-  function handleChang2() {
-    console.log("data is", inputarr);
   }
 
   return (
