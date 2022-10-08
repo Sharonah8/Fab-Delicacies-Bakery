@@ -1,7 +1,5 @@
 # Fab's Delicacies Bakery
 
-<img src="./>
-
 ![image desc](./src/Images/Screenshot1.png)
 ![image desc](./src/Images/Screenshot2.png)
 
