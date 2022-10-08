@@ -75,7 +75,7 @@ code {
 .nav-list{
   width: 100%;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   padding-top: 2rem;
   padding-bottom: 1rem;
   list-style: none;
