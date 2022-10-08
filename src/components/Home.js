@@ -11,9 +11,7 @@ const Home = () => {
   return (
     <Routes>
       <Route element={<Slider />} path="/" />
-      {/* <Slider />
-     
-      <Cakes /> */}
+      {/* <Slider /> */}
 
       <Route element={<Cakes />} path="/cakes" />
       <Route path="/aboutUs" element={<AboutUs />} />

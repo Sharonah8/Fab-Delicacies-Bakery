@@ -17,7 +17,7 @@ function Navbar() {
       <p className="nav-title">Fab's Bakery</p>
       <ul className="nav-list">
         <Link className="nav-link" to="/aboutUs">About Us</Link>
-        <Link className="nav-link" to="/findUs">Find Us</Link>
+        <Link className="nav-link" to="/cakes">Cakes</Link>
         <Link className="nav-link" to="/orderCake">Place order</Link>
       </ul>
     </div>
